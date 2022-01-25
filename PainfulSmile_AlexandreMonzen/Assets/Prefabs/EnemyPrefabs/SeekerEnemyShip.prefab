@@ -301,7 +301,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.5
+  m_Time: 1
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -842,7 +842,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.5
+  m_Time: 1
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -994,6 +994,7 @@ MonoBehaviour:
   _targetToSeek: {fileID: 0}
   _distanceToStop: 0
   _movementSpeed: 2.5
+  _pathShootCannonBall: 
 --- !u!50 &1740962147804168971
 Rigidbody2D:
   serializedVersion: 4

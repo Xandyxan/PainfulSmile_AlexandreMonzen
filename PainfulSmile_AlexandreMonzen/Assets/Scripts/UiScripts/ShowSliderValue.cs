@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
-public class ShowSliderValue : MonoBehaviour
+public sealed class ShowSliderValue : MonoBehaviour
 {
     private Slider sliderUI;
     [SerializeField] private Text textSliderValue;
